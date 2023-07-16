@@ -13,7 +13,11 @@ python_version: 3.10.10
 
 
 # 部署方法
-1. 安装依赖：
+1. 克隆此仓库:
+```angular2html
+git clone https://github.com/CCCBora/auto-draft
+```
+2. 安装依赖：
 ```angular2html
 pip install -r requirements.txt
 ```
