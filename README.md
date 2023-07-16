@@ -13,16 +13,23 @@ python_version: 3.10.10
 
 
 # 部署方法
-1. 克隆此仓库:
+1. 克隆此仓库：
 ```angular2html
-git clone https://github.com/CCCBora/auto-draft
+git clone https://github.com/red-tie/auto-survey
 ```
 2. 安装依赖：
 ```angular2html
 pip install -r requirements.txt
 ```
-3. 在main.py 文章中设定好OPENAI_API_KEY.
-4. 编辑`main.py`以自定义论文标题, 然后运行
+3. 将`main.py`中`your key` 替换成有效的open key
+```angular2html
+openai.api_key = "your key"
+```
+4. 将`main.py`中的`target_title`替换成自己的标题
+```angular2html
+target_title = "Reinforcement Learning for Robot Control"
+```
+5. 运行`main.py`
 ```angular2html
 python main.py
 ```
@@ -32,6 +39,6 @@ python main.py
 
 
 # 参考与学习
-代码主要参考了如下优秀项目:  
-https://github.com/kaixindelele/ChatPaper  
+代码主要参考了如下优秀项目：
+https://github.com/kaixindelele/ChatPaper
 https://github.com/CCCBora/auto-draft
