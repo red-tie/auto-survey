@@ -39,6 +39,6 @@ python main.py
 
 
 # 参考与学习
-代码主要参考了如下优秀项目：
-https://github.com/kaixindelele/ChatPaper
+代码主要参考了如下优秀项目:  
+https://github.com/kaixindelele/ChatPaper  
 https://github.com/CCCBora/auto-draft
