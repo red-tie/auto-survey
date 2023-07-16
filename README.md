@@ -17,7 +17,7 @@ python_version: 3.10.10
 ```angular2html
 pip install -r requirements.txt
 ```
-3. 在环境变量中设定OPENAI_API_KEY.
+3. 在main.py 文章中设定好OPENAI_API_KEY.
 4. 编辑`main.py`以自定义论文标题, 然后运行
 ```angular2html
 python main.py
@@ -29,5 +29,5 @@ python main.py
 
 # 参考与学习
 代码主要参考了如下优秀项目：
-
+https://github.com/kaixindelele/ChatPaper
 https://github.com/CCCBora/auto-draft
